@@ -116,14 +116,15 @@ ul{
 
 .grid-bloco-geral{
     display: grid;
-    gap: 20px;
-    background-color: #cbcbcb10;
+    gap: 40px;
+    background-color: #cbcbcb23;
 }
 
 /* blocos */
 
 .bloco-1-grid,
-.grid-bloco-2{
+.grid-bloco-2,
+.grid-bloco-3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
