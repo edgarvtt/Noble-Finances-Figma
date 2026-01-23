@@ -112,9 +112,18 @@ ul{
     justify-self: center;
 }
 
-/* bloco 1 */
+/* bloco geral */
 
-.bloco-1-grid{
+.grid-bloco-geral{
+    display: grid;
+    gap: 20px;
+    background-color: #cbcbcb10;
+}
+
+/* blocos */
+
+.bloco-1-grid,
+.grid-bloco-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
@@ -124,25 +133,28 @@ ul{
     background: #D2F8DC;
 }
 
-.botoes-bloco-1{
+.botoes-bloco-1,
+.botoes-bloco-2{
     display: flex;
     gap:20px;
     margin-top: 72px;
 }
 
-.botoes-bloco-1 a{
+.botoes-bloco-1 a,
+.botoes-bloco-2 a{
     background-color: #ffffff;
     border-radius: 4px 8px;
     padding: 8px 16px;
 }
 
-.botoes-bloco-1 a:hover{
+.botoes-bloco-1 a:hover,
+.botoes-bloco-2 a:hover{
     background-color: #a0f1bca2;
-    border-radius: 4px 8px;
-    padding: 8px 16px;
+    cursor:default;
 }
 
-.texto-bloco-1 h3{
+.texto-bloco-1 h3,
+.texto-bloco-2 h3{
 
     font-size: 42px;
     color:#2E4F21;
@@ -150,8 +162,22 @@ ul{
     
 }
 
-.texto-bloco-1 p{
+.texto-bloco-1 p,
+.texto-bloco-2 p{
 
     margin-top:30px;
     font-size: 16px;
+}
+
+/* bloco 2 especifico */
+
+.grid-bloco-2{
+    margin-left: 370px;
+    justify-content: end;
+
+}
+
+.grid-bloco-2 img{
+    padding-left: 80px;
+
 }
